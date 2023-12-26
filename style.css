@@ -1,0 +1,284 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+html,
+body{
+    font-family: "roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+
+/* header section */
+
+header{
+    background-color: rgb(74, 31, 115);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    
+}
+
+.navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+}
+
+.list ul{
+    display: flex;
+    gap: 10px;
+}
+
+ul{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.list ul li{
+    border-bottom: 2px solid transparent;
+   transition: 0.2s ease-in-out;
+} 
+
+.list ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in-out;
+}
+
+/* Hero Section */
+
+.hero-section{
+    background-image: url(https://w0.peakpx.com/wallpaper/117/349/HD-wallpaper-music-neon-icon-violet-background-neon-symbols-music-creative-neon-icons-music-sign-music-signs-music-icon-music-icons.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   
+}
+
+.container p{
+    color: white;
+}
+
+.container{
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-section  h1{
+    font-size: 96px;
+    font-weight: 600;
+}
+
+.container h3{
+    font-size: 32px;
+}
+
+/* music section */
+
+.music-section{
+background-color: rgba(74, 31, 115);
+padding-top: 50px;
+}
+
+
+.music-container{
+    padding-bottom: 200px;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+.Start{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.2s ease-in-out;
+}
+
+.Start:hover{
+    opacity: o.8;  
+    transition: 0.2s ease-in-out;
+    background-color: white;
+    color: black;
+}
+
+
+.music-container b{
+    color: wheat;
+    font-size: 10px;
+}
+
+.iphone-ipad-img{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+
+/* music container */
+
+.about-music {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.read-more{
+    background-color:rgba(74, 31, 115); 
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    transition: 0.2s ease-in-out;
+
+}
+
+.read-more:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+/* video section */
+
+
+.video-section{
+   background-image: url(./images/video.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 800px;
+   max-width: 1000;
+   margin: 0 auto;
+   display: grid;
+   color: white;
+   
+}
+
+.contaner{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 400px;
+    
+    }
+
+.video-section.contaner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -20px;
+}
+
+.contaner p{
+    width: 600x;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+/* Gift section */
+
+.gift-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 30px;
+}
+
+.gift-conteant{
+    display: grid;
+    gap: 20px;
+}
+
+.secondary-button{
+    background-color:rgba(74, 31, 115); 
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    transition: 0.2s ease-in-out;
+
+}
+
+.secondary-button:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+footer{
+    background-color:rgb(30, 9, 50); 
+    color: white;
+}
+
+
+.footer-container{
+   
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-container h1{
+    padding-bottom: 10px;
+}
+
+.footer-section{
+    background-color: rgba(74, 31, 115);;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
